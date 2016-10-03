@@ -1,0 +1,32 @@
+#purple{
+  margin: 10px 10px 10px 10px;
+  border: purple 2px dotted;
+  padding: 100px 10px 10px 10px;
+}
+
+.content{
+  text-align: center;
+}
+
+.red{
+  color:red;
+}
+
+.orange{
+  color:orange;
+}
+
+.green{
+  color:green;
+  text-align: center;
+}
+
+.yellow{
+  color: yellow;
+  text-align:center;
+}
+
+.purple{
+  text-align: right;
+  color: purple;
+}

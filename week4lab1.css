@@ -1,0 +1,26 @@
+body{
+  background-color:blue;
+}
+
+.red{
+color:red;
+}
+
+#black{
+  margin:100px 100px 100px 100px;
+  border: black 3px solid;
+  padding: 20px
+}
+
+
+#green{
+  margin: 5px 10px 10px 10px;
+  border: green 2px dotted;
+  padding: 5px;
+}
+
+#yellow{
+  margin: 5px 5px 5px 0px;
+  border: yellow 2px dotted;
+  padding: 10px 10px 10px 0px;
+}
