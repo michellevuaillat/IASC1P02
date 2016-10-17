@@ -1,0 +1,46 @@
+
+
+#wrapper{
+  min-height:700px;
+  width:1000px;
+  background-color:green;
+  margin:0 auto;
+
+}
+
+
+#content{
+  background-color:blue;
+  width:200px;
+  height:200px;
+  position:relative;
+  left: 100px;
+  top: 10px;
+  float: left;
+
+}
+
+#content2{
+  background-color:red;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 400px;
+  top: 10px;
+  float: left;
+}
+
+#content3{
+  clear:both;
+  background-color:yellow;
+  width: 200px;
+  height:200px;
+  position: relative;
+  left:350px;
+  top:100px;
+
+}
+
+  body{
+    background-color:green;
+  }
