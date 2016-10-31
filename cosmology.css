@@ -1,0 +1,48 @@
+
+#wrapper{
+  height:1000px;
+  background-color: navy;
+
+}
+
+body{
+  background-color: navy;
+
+}
+
+#title{
+  width:100%;
+  text-align: center;
+  color:white;
+  border-style: solid;
+}
+
+#nav{
+  width:200px;
+  height:1000px;
+  color:white;
+  border-style: solid;
+
+}
+
+.border1{
+  color:white;
+}
+
+#image{
+  float:left;
+
+  border-style:solid;
+  position:absolute;;
+  left: 1210px;
+  top:150px;
+
+}
+
+#image2{
+  float:left;
+  border-style:solid;
+  position:relative;
+  left:1200px;
+  top:300px;
+}
