@@ -55,7 +55,18 @@ div p, ul{
   text-transform:uppercase;
   font-size: 20px;
   font-family: times;
+
+/* coding to change the colour of text when hovering
+found at https://jonbellah.com/how-to-make-links-fade-with-css/ */
   color: #6C0039;
+  transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+}
+
+#nav a:hover {
+  color: pink;
 }
 
 #socialmedia{
@@ -66,6 +77,12 @@ div p, ul{
   float:left;
   position: relative;
   right: 360px;
+}
+
+.follow{
+  text-align: center;
+  font-family: times;
+  font-size: 18px;
 }
 
 #fb{
