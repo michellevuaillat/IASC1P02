@@ -1,0 +1,202 @@
+body{
+  background-color: #white;
+}
+
+div p, ul{
+  font-family:helvetica;
+  color: #6C0039;
+}
+
+
+
+#wrapper{
+  min-height: 100%;
+  width:100%;
+  margin:0 auto;
+}
+
+#header{
+  height:180px;
+}
+
+#logo{
+  height:280px;
+  float:left;
+}
+
+.title{
+  float:left;
+  font-style: italic;
+  font-family: Times; cursive;
+  font-size: 50px;
+  color: #6C0039;
+  position:absolute;
+  left: 270px;
+  top: 60px;
+
+}
+
+
+#nav{
+  width:800px;
+  height:30px;
+  padding: 10px;
+  float: left;
+  text-align: left;
+  color:lightpink;
+  position: absolute;
+  left: 270px;
+  top: 30px;
+
+
+}
+
+#nav a{
+  text-transform:uppercase;
+  font-size: 20px;
+  font-family: times;
+  color: #6C0039;
+}
+
+#socialmedia{
+  margin: 10px 10% 10px 10%;
+  padding: 30px;
+  width: 150px;
+  height: 800px;
+  float:left;
+  position: relative;
+  right: 360px;
+}
+
+#fb{
+  width: 50px;
+  position: absolute;
+  left: 70px;
+  top: 100px;
+
+}
+
+#insta{
+  width: 80px;
+  position:absolute;
+  left:55px;
+  top: 160px;
+
+}
+
+#macaroncontent{
+  background-color: #FFEEF7;
+  margin: 10px 10% 10px 10%;
+  padding: 20px;
+  width: 300px;
+  min-height:500px;
+  float:left;
+  font-family: helvetica;
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+
+.macarontower{
+  width:300px;
+}
+
+#towercakecontent{
+  background-color: #FFEEF7;
+  margin: 10px 10% 10px 10%;
+  padding: 20px;
+  width: 300px;
+  min-height:500px;
+  float:left;
+  position: absolute;
+  left: 550px;
+  top: 200px;
+}
+
+.towercake{
+  width:300px;
+}
+
+#gingerbreadcontent{
+  background-color: #FFEEF7;
+  margin: 10px 10% 10px 10%;
+  padding: 20px;
+  width: 300px;
+  min-height:600px;
+  float:left;
+  position: absolute;
+  left: 550px;
+  top: 800px;
+}
+
+.gingerbread{
+  width:300px;
+  position:relative;
+
+}
+
+#donutcakecontent{
+  background-color: #FFEEF7;
+  margin: 10px 10% 10px 10%;
+  padding: 20px;
+  width: 300px;
+  min-height:500px;
+  float:left;
+  position: absolute;
+  left: 150px;
+  top: 990px;
+}
+
+.donutcake{
+  width:300px;
+}
+
+#cakechoice{
+  background-color: #FFEEF7;
+  margin: 10px 10% 10px 10%;
+  padding: 20px;
+  width: 300px;
+  float:left;
+  position: absolute;
+  left: 150px;
+  top: 1550px;
+}
+
+#footer{
+  background-color:#FFEEF7;
+  padding: 40px;
+  font-family: helvetica;
+  width:100%;
+  height:30px;
+  clear:both;
+  float:left;
+  text-align:left;
+  position: relative;
+  top:770px;
+  color: #6C0039;
+
+}
+
+.about{
+  position: relative;
+  left: 50px;
+}
+
+.contact{
+  position: relative;
+  left: 100px;
+}
+
+/* Making a link change colour after hovering found at 
+https://jonbellah.com/how-to-make-links-fade-with-css/ */
+a {
+  color: #333;
+  transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+}
+
+a:hover {
+  color: pink;
+}
